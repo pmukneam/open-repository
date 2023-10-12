@@ -1,62 +1,38 @@
-# Open Repository
+# create-svelte
 
-- open source platform (website) that provides tools for (people in the fields) to share/ explain reseach papers to general public
+Everything you need to build a Svelte project, powered by [`create-svelte`](https://github.com/sveltejs/kit/tree/master/packages/create-svelte).
 
-## Idea
+## Creating a project
 
-- interactive article
-  - interactive visual ?
-  - interactive data
-  - Interactive/active? Reading experience
-  - collaborative annotation (maybe personal copy to make it)
-  - Mouse hovering information/ click to go to other resource
-  - Sample code
-- New kind of forum for people to discuss
-  - Make it interesting, interactive forum ? and not just comments block by block like reddit/ general formum
-  - Forum generally have people trolling problems
-  - achievement/rewards system/points/badges/titles
-  - Live Q & A seesion
-  - Machine learning moderation
-  - Machine learninig/ area of intesrt news feed (Use ML to cluster news ???)
-  - Many languages
-  - Dark theme or custom theme
-  - personalized feeds
-  - Open API for people to use
-  - Online course
-  - Qucik comprehension/game/q\&a add the end
-  - infographics
-  - Compettion
-  - Glosassary
-  - Bookmark/favorite
-  - Seach/recommendation
-  - Feeback system
+If you're seeing this, you've probably already done this step. Congrats!
 
-## Other thing in the ecosystem
+```bash
+# create a new project in the current directory
+npm create svelte@latest
 
-- App port
-- Education game
+# create a new project in my-app
+npm create svelte@latest my-app
+```
 
-## Infrastructure
+## Developing
 
-- (FINAL CALL) Svelte (JS) + FastAPI (Python) + PostgresSQL
-- React + ExpressJS
-- React + FastAPI
-- Django
+Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
 
-## Development
+```bash
+npm run dev
 
-## Learning
+# or start the server and open the app in a new browser tab
+npm run dev -- --open
+```
 
-- Full dive HTTP
-- JavaScript HTML CSS
-- Read Svelte Docs
-- Read FastAPI docs
+## Building
 
-### Base Feature
+To create a production version of your app:
 
-- Post article
+```bash
+npm run build
+```
 
-### Todo
+You can preview the production build with `npm run preview`.
 
-- Design database
-- How the website will look like
+> To deploy your app, you may need to install an [adapter](https://kit.svelte.dev/docs/adapters) for your target environment.
