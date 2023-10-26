@@ -1,0 +1,6 @@
+We know that $P_m(\mathbb{R})$ has dimension of $m + 1$. To prove that a list of $m + 1$ vectors, $1, x-5, \ldots, (x - 5)^m$ are basis for $P_m(\mathbb{R})$, we only need to verify that these are linearly independent and the final result follows from Theorem of a linearly independent vectors of right length.
+
+Consider,
+        $$ a_0(1) + a_1(x - 5) + \cdots + a_m(x-5)^m = 0 $$
+
+It is easy to see that $a_0 = 0$. To obtain $a_1, \ldots, a_m$, we take derivative of both side one by one and replacing all previous $a_{i - 1}$. After $m+1$ differentiation, we can infer that $a_m = 0$.Now $a_i = 0$, and we are done.

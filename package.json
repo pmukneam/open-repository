@@ -32,5 +32,15 @@
 		"vite": "^4.4.2",
 		"vitest": "^0.32.2"
 	},
-	"type": "module"
+	"type": "module",
+	"dependencies": {
+		"@tinymce/tinymce-svelte": "^1.0.1",
+		"highlight.js": "^11.9.0",
+		"katex": "^0.16.9",
+		"marked": "^9.1.2",
+		"marked-katex-extension": "^4.0.3",
+		"slate": "^0.94.1",
+		"slate-react": "^0.99.0",
+		"svelte-highlight": "^7.3.0"
+	}
 }
